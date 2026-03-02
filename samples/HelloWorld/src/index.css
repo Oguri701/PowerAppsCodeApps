@@ -1,5 +1,5 @@
 :root {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Yu Gothic UI", "Meiryo UI", Meiryo, "Segoe UI", sans-serif;
   line-height: 1.5;
   font-weight: 400;
   
@@ -7,9 +7,9 @@
   color-scheme: light;
   
   font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  text-rendering: auto;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
 }
 
 body {
@@ -19,6 +19,7 @@ body {
   height: 100vh;
   overflow-y: auto;
   overflow-x: auto;
+  -webkit-text-size-adjust: 100%;
 }
 
 html {
